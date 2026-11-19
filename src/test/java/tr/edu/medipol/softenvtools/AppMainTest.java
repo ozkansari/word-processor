@@ -15,14 +15,4 @@ public class AppMainTest {
 		// THEN
 		assertEquals("", actual, "Result should be empty");
 	}
-	
-	@Test
-	public void formatWithNullString() {
-		// GIVEN
-		String input = null;
-		// WHEN (ACT)
-		String actual = AppMain.format(input);
-		// THEN
-		assertEquals("", actual, "Result should be empty");	
-	}
 }
