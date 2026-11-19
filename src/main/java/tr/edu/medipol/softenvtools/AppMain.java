@@ -12,7 +12,7 @@ public class AppMain {
 
 	// We want to test this formatting logic runs correctly for different types of inputs
 	public static String format(String input) {
-		if(input == null) return ""
+		if(input == null) return "";
 		String whitespaceDeleted = StringUtils.deleteWhitespace(input);
 		String formatted = StringUtils.lowerCase(whitespaceDeleted);
 		return formatted;
